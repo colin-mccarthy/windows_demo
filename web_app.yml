@@ -5,7 +5,7 @@
   tasks:
     - name: install iis
       win_feature:
-        name: Web-Server
+        name: W3Svc
         state: present
 
     - name: start iis service
