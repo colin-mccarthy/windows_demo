@@ -13,10 +13,10 @@
             name: W3Svc
             state: started
 
-        - name: Create website index.html
-          win_copy:
-            content: "{{ iis_test_message }}"
-            dest: C:\Inetpub\wwwroot\index.html
+ #       - name: Create website index.html
+ #         win_copy:
+ #           content: "{{ iis_test_message }}"
+ #           dest: C:\Inetpub\wwwroot\index.html
 
         - name: Show website address
           debug:
