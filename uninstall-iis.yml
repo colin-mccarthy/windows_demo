@@ -5,7 +5,7 @@
   tasks:
   
   
-    - name: start iis service
+    - name: stop iis service
       win_service:
         name: W3Svc
         state: stopped
