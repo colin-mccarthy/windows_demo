@@ -1,0 +1,12 @@
+---
+- name: install the iis web service
+  hosts: windows
+
+  tasks:
+  
+
+    - name: un-install iis
+      win_feature:
+        name: Web-Server
+        state: absent
+
