@@ -3,6 +3,11 @@
   hosts: windows
 
   tasks:
+  
+    - name: Search and download Windows updates without installing them
+      win_updates:
+        state: downloaded
+
     - name: install iis
       win_feature:
         name: Web-Server
