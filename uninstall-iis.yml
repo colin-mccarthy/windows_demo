@@ -4,6 +4,12 @@
 
   tasks:
   
+  
+    - name: start iis service
+      win_service:
+        name: W3Svc
+        state: stopped
+  
 
     - name: un-install iis
       win_feature:
