@@ -5,7 +5,7 @@
   
   # categories var is determined by a multi select survey in Tower.
   
-  # reboot_serveris determined by a single select survey in Tower.
+  # reboot_server var is determined by a single select survey in Tower.
   
   
   
